@@ -22,9 +22,11 @@ h2 {
 }
 
 .container-flex {
-    display: inline-flex;
+    display: flex;
     border: 3px solid black;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;/* flex-direction and flex-wrap */
 }
 
 .element-flex {
